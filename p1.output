@@ -1,0 +1,312 @@
+This is the output of executing the program and commented:
+
+pirah@stack:~/stack$ ./p1
+0xbf9dd3a0 -  0x3b9ac9ff  -  999999999    --> our void mark
+0xbf9dd3a4 -  0xb7e722ec  -  -1209589012
+0xbf9dd3a8 -  0xb7fc8858  -  -1208186792
+0xbf9dd3ac -  0x3b9ac9ff  -  999999999    --> our void mark
+0xbf9dd3b0 -   0x77905a6  -  125371814
+0xbf9dd3b4 -  0xb7fe4ff4  -  -1208070156
+0xbf9dd3b8 -   0x80481b0  -  134513072
+0xbf9dd3bc -  0xb7fe5668  -  -1208068504
+0xbf9dd3c0 -  0xbf9dd400  -  -1080175616
+0xbf9dd3c4 -  0xb7fd73d9  -  -1208126503
+0xbf9dd3c8 -  0xb7fe5820  -  -1208068064
+0xbf9dd3cc -  0xb7fc8b38  -  -1208186056
+0xbf9dd3d0 -         0x1  -  1
+0xbf9dd3d4 -         0x1  -  1
+0xbf9dd3d8 -           0  -  0
+0xbf9dd3dc -   0x80481e9  -  134513129
+0xbf9dd3e0 -         0x4  -  4
+0xbf9dd3e4 -           0  -  0
+0xbf9dd3e8 -   0x8049730  -  134518576
+0xbf9dd3ec -  0xbf9dd424  -  -1080175580
+0xbf9dd3f0 -  0xb7fb6ff4  -  -1208258572
+0xbf9dd3f4 -  0xb7fe4ce0  -  -1208070944
+0xbf9dd3f8 -           0  -  0
+0xbf9dd3fc -  0xbf9dd418  -  -1080175592
+0xbf9dd400 -  0xb7eb3393  -  -1209322605
+0xbf9dd404 -  0xb7fb74e0  -  -1208257312
+0xbf9dd408 -   0x8048617  -  134514199
+0xbf9dd40c -  0xbf9dd42c  -  -1080175572
+0xbf9dd410 -  0xbf9dd424  -  -1080175580
+0xbf9dd414 -  0xb7fb6ff4  -  -1208258572
+0xbf9dd418 -  0xbf9dd498  -  -1080175464  --> saved ebp??? ---------|
+0xbf9dd41c -   0x80484cc  -  134513868    --> ?? code zone ??       |
+0xbf9dd420 -   0x8048617  -  134514199    --> ?? code zone ??       |
+0xbf9dd424 -  0xbf9dd420  -  -1080175584  --> ?? stack zone ??      |
+0xbf9dd428 -  0xbf9dd420  -  -1080175584  --> ?? stack zone ??      |
+0xbf9dd42c -  0xbf9dd420  -  -1080175584  --> ?? stack zone ??      |
+0xbf9dd430 -  0x3b9ac9ff  -  999999999    --> ret value?            |
+0xbf9dd434 -         0xa  -  10           --> z value               |
+0xbf9dd438 -        0x14  -  20           --> i value               |
+0xbf9dd43c -        0x27  -  39           --> j value               |
+0xbf9dd440 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd444 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd448 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd44c -       0x14d  -  333          --> array a[] value       |
+0xbf9dd450 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd454 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd458 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd45c -       0x14d  -  333          --> array a[] value       |
+0xbf9dd460 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd464 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd468 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd46c -       0x14d  -  333          --> array a[] value       |
+0xbf9dd470 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd474 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd478 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd47c -       0x14d  -  333          --> array a[] value       |
+0xbf9dd480 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd484 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd488 -       0x14d  -  333          --> array a[] value       |
+0xbf9dd48c -       0x14d  -  333          --> array a[] value       |
+0xbf9dd490 -  0x3b9ac9ff  -  999999999    --> our void mark         |
+0xbf9dd494 -  0x3b9ac9ff  -  999999999    --> our void mark         |   
+0xbf9dd498 -  0xbf9dd518  -  -1080175336  --> saved ebp <-----------| --|
+0xbf9dd49c -   0x804847b  -  134513787    --> return address to f1      |
+0xbf9dd4a0 -       0x14d  -  333          --> parameter 1 of f1         |
+0xbf9dd4a4 -         0x3  -  3            --> parameter 2 of f1         |
+0xbf9dd4a8 -       0x29b  -  667          --> parameter 3 of f1         |
+0xbf9dd4ac -       0x29d  -  669          --> parameter 4 of f1         |
+0xbf9dd4b0 -  0x3b9ac9ff  -  999999999    --> ret value?                |
+0xbf9dd4b4 -         0xa  -  10           --> z value                   |
+0xbf9dd4b8 -        0x14  -  20           --> i value                   |
+0xbf9dd4bc -       0x29a  -  666          --> j value                   |
+0xbf9dd4c0 -        0xde  -  222          --> array a[] value           |
+0xbf9dd4c4 -        0xde  -  222          --> array a[] value           |
+0xbf9dd4c8 -        0xde  -  222          --> array a[] value           |
+0xbf9dd4cc -        0xde  -  222          --> array a[] value           |
+0xbf9dd4d0 -        0xde  -  222          --> array a[] value           |
+0xbf9dd4d4 -        0xde  -  222          --> array a[] value           |
+0xbf9dd4d8 -        0xde  -  222          --> array a[] value           |
+0xbf9dd4dc -        0xde  -  222          --> array a[] value           |
+0xbf9dd4e0 -        0xde  -  222          --> array a[] value           |
+0xbf9dd4e4 -        0xde  -  222          --> array a[] value           |
+0xbf9dd4e8 -        0xde  -  222          --> array a[] value           |
+0xbf9dd4ec -        0xde  -  222          --> array a[] value           |
+0xbf9dd4f0 -        0xde  -  222          --> array a[] value           |
+0xbf9dd4f4 -        0xde  -  222          --> array a[] value           |
+0xbf9dd4f8 -        0xde  -  222          --> array a[] value           |
+0xbf9dd4fc -        0xde  -  222          --> array a[] value           |
+0xbf9dd500 -        0xde  -  222          --> array a[] value           |
+0xbf9dd504 -        0xde  -  222          --> array a[] value           |
+0xbf9dd508 -        0xde  -  222          --> array a[] value           |
+0xbf9dd50c -        0xde  -  222          --> array a[] value           |
+0xbf9dd510 -  0x3b9ac9ff  -  999999999    --> our void mark             |
+0xbf9dd514 -  0x3b9ac9ff  -  999999999    --> our void mark             |
+0xbf9dd518 -  0xbf9dd598  -  -1080175208  --> saved ebp -------------|<-|
+0xbf9dd51c -   0x804847b  -  134513787    --> return address to f1   |
+0xbf9dd520 -       0x143  -  323          --> parameter 1 of f1      |
+0xbf9dd524 -         0x2  -  2            --> parameter 2 of f1      |
+0xbf9dd528 -       0x29b  -  667          --> parameter 3 of f1      |
+0xbf9dd52c -       0x29d  -  669          --> parameter 4 of f1      |
+0xbf9dd530 -  0x3b9ac9ff  -  999999999    --> ret value?             |
+0xbf9dd534 -         0xa  -  10           --> z value                |
+0xbf9dd538 -        0x14  -  20           --> i value                |
+0xbf9dd53c -       0x29a  -  666          --> j value                |
+0xbf9dd540 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd544 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd548 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd54c -        0x6f  -  111          --> array a[] value        |
+0xbf9dd550 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd554 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd558 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd55c -        0x6f  -  111          --> array a[] value        |
+0xbf9dd560 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd564 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd568 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd56c -        0x6f  -  111          --> array a[] value        |
+0xbf9dd570 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd574 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd578 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd57c -        0x6f  -  111          --> array a[] value        |
+0xbf9dd580 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd584 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd588 -        0x6f  -  111          --> array a[] value        |
+0xbf9dd58c -        0x6f  -  111          --> array a[] value        |
+0xbf9dd590 -  0x3b9ac9ff  -  999999999    --> our void mark          |
+0xbf9dd594 -  0x3b9ac9ff  -  999999999    --> our void mark          |
+0xbf9dd598 -  0xbf9dd5b8  -  -1080175176  --> saved ebp  <-----------|
+0xbf9dd59c -   0x80483ad  -  134513581    --> return address to main
+0xbf9dd5a0 -       0x139  -  313          --> parameter 1 of f1
+0xbf9dd5a4 -         0x1  -  1            --> parameter 2 of f1
+0xbf9dd5a8 -         0x2  -  2            --> parameter 3 of f1
+0xbf9dd5ac -         0x3  -  3            --> parameter 4 of f1
+0xbf9dd5b0 -  0xb7fe4ce0  -  -1208070944
+0xbf9dd5b4 -   0x8048500  -  134513920
+0xbf9dd5b8 -  0xbf9dd618  -  -1080175080
+0xbf9dd5bc -  0xb7e82450  -  -1209523120
+0xbf9dd5c0 -         0x1  -  1
+0xbf9dd5c4 -  0xbf9dd644  -  -1080175036
+0xbf9dd5c8 -  0xbf9dd64c  -  -1080175028
+0xbf9dd5cc -  0xb7fc8b38  -  -1208186056
+0xbf9dd5d0 -           0  -  0
+0xbf9dd5d4 -         0x1  -  1
+0xbf9dd5d8 -           0  -  0
+0xbf9dd5dc -   0x80481f0  -  134513136
+0xbf9dd5e0 -  0xb7fb6ff4  -  -1208258572
+0xbf9dd5e4 -  0xb7fe4ce0  -  -1208070944
+0xbf9dd5e8 -           0  -  0
+0xbf9dd5ec -  0xbf9dd618  -  -1080175080
+0xbf9dd5f0 -  0xc90b8086  -  -921993082
+0xbf9dd5f4 -  0x22e82a96  -  585640598
+0xbf9dd5f8 -           0  -  0
+0xbf9dd5fc -           0  -  0
+0xbf9dd600 -           0  -  0
+0xbf9dd604 -  0xb7fdcc00  -  -1208103936
+0xbf9dd608 -  0xb7e8237d  -  -1209523331
+0xbf9dd60c -  0xb7fe4ff4  -  -1208070156
+0xbf9dd610 -         0x1  -  1
+0xbf9dd614 -   0x80482d0  -  134513360
+0xbf9dd618 -           0  -  0
+0xbf9dd61c -   0x80482f1  -  134513393
+0xbf9dd620 -   0x8048374  -  134513524
+0xbf9dd624 -         0x1  -  1
+0xbf9dd628 -  0xbf9dd644  -  -1080175036
+0xbf9dd62c -   0x8048500  -  134513920
+0xbf9dd630 -   0x80484f0  -  134513904
+0xbf9dd634 -  0xb7fd7d70  -  -1208124048
+0xbf9dd638 -  0xbf9dd63c  -  -1080175044
+0xbf9dd63c -  0xb7fe2465  -  -1208081307
+0xbf9dd640 -         0x1  -  1
+0xbf9dd644 -  0xbf9dd9cf  -  -1080174129
+0xbf9dd648 -           0  -  0
+0xbf9dd64c -  0xbf9dd9d4  -  -1080174124
+0xbf9dd650 -  0xbf9dd9df  -  -1080174113
+0xbf9dd654 -  0xbf9dd9ef  -  -1080174097
+0xbf9dd658 -  0xbf9dda3f  -  -1080174017
+0xbf9dd65c -  0xbf9dda5f  -  -1080173985
+0xbf9dd660 -  0xbf9dda72  -  -1080173966
+0xbf9dd664 -  0xbf9dda7d  -  -1080173955
+0xbf9dd668 -  0xbf9ddea6  -  -1080172890
+0xbf9dd66c -  0xbf9ddebb  -  -1080172869
+0xbf9dd670 -  0xbf9ddf08  -  -1080172792
+0xbf9dd674 -  0xbf9ddf1e  -  -1080172770
+0xbf9dd678 -  0xbf9ddf2f  -  -1080172753
+0xbf9dd67c -  0xbf9ddf46  -  -1080172730
+0xbf9dd680 -  0xbf9ddf4e  -  -1080172722
+0xbf9dd684 -  0xbf9ddf5f  -  -1080172705
+0xbf9dd688 -  0xbf9ddf6d  -  -1080172691
+0xbf9dd68c -  0xbf9ddf9b  -  -1080172645
+0xbf9dd690 -  0xbf9ddfbb  -  -1080172613
+0xbf9dd694 -  0xbf9ddfdd  -  -1080172579
+0xbf9dd698 -  0xbf9ddfe4  -  -1080172572
+0xbf9dd69c -           0  -  0
+0xbf9dd6a0 -        0x20  -  32
+0xbf9dd6a4 -  0xb7fc9400  -  -1208183808
+0xbf9dd6a8 -        0x21  -  33
+0xbf9dd6ac -  0xb7fc9000  -  -1208184832
+0xbf9dd6b0 -        0x10  -  16
+0xbf9dd6b4 -   0x78bf3bf  -  126612415
+0xbf9dd6b8 -         0x6  -  6
+0xbf9dd6bc -      0x1000  -  4096
+0xbf9dd6c0 -        0x11  -  17
+0xbf9dd6c4 -        0x64  -  100
+0xbf9dd6c8 -         0x3  -  3
+0xbf9dd6cc -   0x8048034  -  134512692
+0xbf9dd6d0 -         0x4  -  4
+0xbf9dd6d4 -        0x20  -  32
+0xbf9dd6d8 -         0x5  -  5
+0xbf9dd6dc -         0x7  -  7
+0xbf9dd6e0 -         0x7  -  7
+0xbf9dd6e4 -  0xb7fca000  -  -1208180736
+0xbf9dd6e8 -         0x8  -  8
+0xbf9dd6ec -           0  -  0
+0xbf9dd6f0 -         0x9  -  9
+0xbf9dd6f4 -   0x80482d0  -  134513360
+0xbf9dd6f8 -         0xb  -  11
+0xbf9dd6fc -       0x3e8  -  1000
+0xbf9dd700 -         0xc  -  12
+0xbf9dd704 -       0x3e8  -  1000
+0xbf9dd708 -         0xd  -  13
+0xbf9dd70c -       0x3e8  -  1000
+0xbf9dd710 -         0xe  -  14
+0xbf9dd714 -       0x3e8  -  1000
+0xbf9dd718 -        0x17  -  23
+0xbf9dd71c -           0  -  0
+0xbf9dd720 -         0xf  -  15
+0xbf9dd724 -  0xbf9dd73b  -  -1080174789
+0xbf9dd728 -           0  -  0
+0xbf9dd72c -           0  -  0
+0xbf9dd730 -           0  -  0
+0xbf9dd734 -           0  -  0
+0xbf9dd738 -  0x69000000  -  1761607680
+0xbf9dd73c -    0x363836  -  3553334
+0xbf9dd740 -           0  -  0
+0xbf9dd744 -           0  -  0
+0xbf9dd748 -           0  -  0
+0xbf9dd74c -           0  -  0
+0xbf9dd750 -           0  -  0
+0xbf9dd754 -           0  -  0
+0xbf9dd758 -           0  -  0
+0xbf9dd75c -           0  -  0
+0xbf9dd760 -           0  -  0
+0xbf9dd764 -           0  -  0
+0xbf9dd768 -           0  -  0
+0xbf9dd76c -           0  -  0
+0xbf9dd770 -           0  -  0
+0xbf9dd774 -           0  -  0
+0xbf9dd778 -           0  -  0
+0xbf9dd77c -           0  -  0
+0xbf9dd780 -           0  -  0
+0xbf9dd784 -           0  -  0
+0xbf9dd788 -           0  -  0
+0xbf9dd78c -           0  -  0
+0xbf9dd790 -           0  -  0
+0xbf9dd794 -           0  -  0
+0xbf9dd798 -           0  -  0
+0xbf9dd79c -           0  -  0
+0xbf9dd7a0 -           0  -  0
+0xbf9dd7a4 -           0  -  0
+0xbf9dd7a8 -           0  -  0
+0xbf9dd7ac -           0  -  0
+0xbf9dd7b0 -           0  -  0
+0xbf9dd7b4 -           0  -  0
+0xbf9dd7b8 -           0  -  0
+0xbf9dd7bc -           0  -  0
+0xbf9dd7c0 -           0  -  0
+0xbf9dd7c4 -           0  -  0
+0xbf9dd7c8 -           0  -  0
+0xbf9dd7cc -           0  -  0
+0xbf9dd7d0 -           0  -  0
+0xbf9dd7d4 -           0  -  0
+0xbf9dd7d8 -           0  -  0
+0xbf9dd7dc -           0  -  0
+0xbf9dd7e0 -           0  -  0
+0xbf9dd7e4 -           0  -  0
+0xbf9dd7e8 -           0  -  0
+0xbf9dd7ec -           0  -  0
+0xbf9dd7f0 -           0  -  0
+0xbf9dd7f4 -           0  -  0
+0xbf9dd7f8 -           0  -  0
+0xbf9dd7fc -           0  -  0
+0xbf9dd800 -           0  -  0
+0xbf9dd804 -           0  -  0
+0xbf9dd808 -           0  -  0
+0xbf9dd80c -           0  -  0
+0xbf9dd810 -           0  -  0
+0xbf9dd814 -           0  -  0
+0xbf9dd818 -           0  -  0
+0xbf9dd81c -           0  -  0
+0xbf9dd820 -           0  -  0
+0xbf9dd824 -           0  -  0
+0xbf9dd828 -           0  -  0
+0xbf9dd82c -           0  -  0
+0xbf9dd830 -           0  -  0
+0xbf9dd834 -           0  -  0
+0xbf9dd838 -           0  -  0
+0xbf9dd83c -           0  -  0
+0xbf9dd840 -           0  -  0
+0xbf9dd844 -           0  -  0
+0xbf9dd848 -           0  -  0
+0xbf9dd84c -           0  -  0
+f1 level 3
+f1 level 2
+f1 level 1
+Function pointers: f1: 0x8048416 - cleanstack: 0x80483d8 - main: 0x8048374
+pirah@stack:~/stack$
+
+Last line demonstrates where code zone is. After various executions code 
+zone does not change, but stack zone does.
+
